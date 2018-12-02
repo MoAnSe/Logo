@@ -1,0 +1,319 @@
+a{
+    text-decoration: none
+  }
+  .mobile{
+      display: none;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif
+  }
+  header,.prev,.next,.content{
+    position: absolute;
+  }
+  header{
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .2);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+  }
+  .header__logo{
+    margin-left: 10%;
+    margin-bottom: 3vh;
+    text-shadow: 1px 1px 1px rgba(1, 2, 2, .56);
+    color: #fff;
+    font-family: Lobster;
+    font-size: 7vh;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .header__logo span,.menu a:hover,.title-head:hover{
+      color: #00cbff;
+  }
+  .menu_el{
+      margin-left: 20%;
+  }
+  .menu a{
+      color: #fff;
+      padding: 3.3vh 3vh;
+      font-size: 2vh;
+      text-transform: uppercase
+  }
+  .menu a:hover{
+    border-top: 3vh solid #00cbff;
+  }
+  .menu .icon {
+    display: none;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  .slider {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    display: block;
+  }
+  .prev, .next {
+    cursor: pointer;
+    top: 50%;
+    width: 2vh;
+    height: 2vh;
+    background-color: #00cbff;
+    opacity: .6;
+    padding: 1.5vh;
+    color: #fff;
+    border-radius: 5vh;
+  }
+  .next {
+    right: 0;
+    margin-right: 5%;
+  }
+  .prev{
+    left:0;
+    margin-left: 5%;
+  
+  }
+  .prev:hover, .next:hover {
+    background-color: #00cbff;
+    opacity: 1;
+    color: black;
+  }
+  .content {
+    top: 35%;
+    left: 45%;
+    color: #f2f2f2;
+    font-size: 2vh;
+    width: 20%;
+  }
+  .content h1 {
+    width: 100vh;
+    color: #fff;
+    font-family: Lato;
+    font-size: 4vh;
+    font-weight: lighter;
+  }
+  .content h1 span{
+    font-family: Lato;
+    font-weight:700;
+  }
+  .content p{
+    width:70vh;
+    font-family: Lato;
+    font-size: 2.3vh;
+  }
+  .dot {
+    cursor: pointer;
+    height: 2vh;
+    width: 2vh;
+    margin: 0 1vh;
+    border: 0.2vh solid #fff;
+    background-color: rgba(0,0,0,0);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  
+  .active, .dot:hover {
+    width: 2.4vh;
+    height: 2.4vh;
+    background-color: #00cbff;
+    border: 0;
+  }
+  
+  .dots{
+    width: 15vh;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    left: 50%;
+    top: 90%;
+  }
+  .buttons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%
+  }
+  .btn_el{
+    color: #fff;
+    font-family: Lato;
+    text-transform: uppercase;
+    padding: 2vh;
+  }
+  .Learn{
+    margin-left: 2vh;
+  }
+  .Learn,.Download{
+    width: 25vh;
+    cursor: pointer;
+    padding: 2vh;
+    border: 0.4vh solid #fff;
+    text-align: center;
+    border-radius: 1vh;
+  }
+  .Download:hover,.Learn:hover{
+      box-shadow: 0 0.5vh 0 #00779a;
+      background-color: #00cbff;
+      border: 0;
+  }
+  .Avialible{
+    position: absolute;
+    display: flex;
+    margin-top: 40%;
+  }
+  
+  .Avialible span{
+    padding-top: 2vh;
+  }
+  .apple , .android{
+    margin-left: 1vh;
+  }
+  .Summarise{
+    border-top: solid 1vh #00cbff;
+    border-bottom: solid 0.1vh #e8e8e8;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 8vh  20vh ;
+    color: #3f3e40;
+  }
+  .Summarise h1{
+    font-family: Lato;
+    font-size: 5vh;
+    padding-bottom: 1vh;
+    text-decoration-color: black;
+    font-weight: 700;
+  }
+  .Summarise span{
+    font-family: Lato;
+    font-size: 2.6vh;
+    padding-bottom: 7vh;
+  }
+  .icons{
+    padding-top: 6vh;
+    display: flex;
+  }
+  .icon{
+      margin-right: 10%;
+  }
+  
+  .image{
+    padding-bottom: 4vh;
+  }
+  
+  .title-head{
+    font-family: Lato;
+    padding-bottom: 1vh;
+    text-decoration-color:black;
+    font-weight: 700;
+    font-size: 2vh;
+    cursor: pointer;
+  }
+  
+  .sum_block{
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+  }
+  .sum_text{
+    text-align: justify;
+    font-family: Lato;
+    padding-right: 1vh;
+    padding-left: 1vh;
+  }
+  .ac_list{
+    padding: 8vh  18vh ;
+    color: #3f3e40; 
+  }
+  .ac_list h1{
+    text-align: center;
+    font-family: Lato;
+    font-size: 5vh;
+    padding-bottom: 7vh;
+    text-decoration-color:black;
+    font-weight: 700;  
+  }
+  .account{
+    padding-bottom:2%;
+    margin-left: 12%;
+    display: flex;
+  
+  }
+  .select{
+    cursor: pointer;
+    border: 3px solid #e5e5e5;
+    position: absolute;
+    display: flex;
+    width: 2vh;
+    height: 2vh;
+    border-radius: 9vh;
+    margin-top: 3%;
+  } 
+  .select:hover{
+    background-image: url(../img/eva_sel.png);
+    background-size: cover;
+    width: 3vh;
+    height: 3vh;
+    border: 0;
+  }
+  .photo{
+    padding-left: 6%;
+  }
+  .ac_text{
+    margin-left: 4%;
+  }
+  .ac_text h2{
+    font-size: 4vh;
+    color: #00c8db;
+    font-family: Lato;
+    font-weight: bolder;
+    padding-bottom: 4%;
+  }
+  .ac_text p{
+    color: #3f3e40;
+    font-size: 2.5vh;
+    font-family: Lato;
+  }
+  @media screen and (max-width: 375px){
+  .mobile{
+    width: 100%;
+    display: flex;
+  }
+  .menu a{
+    display: none;
+  }
+  .responsive a{
+    display: block;
+  }
+  .menu .responsive{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 25%;
+  }
+  .menu .icon {
+    display: block;
+  }
+  .menu a:hover{
+    color: #fff;
+    border-top: none;
+    border-bottom: 0.5vh solid #fff;
+  }
+  .menu .icon:hover{
+    border-top: none;
+  }
+  .slider{
+    display: none;
+  }
+  .Summarise{
+    flex-wrap: wrap;
+  }
+  .icons{
+    flex-wrap: wrap;
+  }
+    
+  }
+  
